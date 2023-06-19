@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: antiquewhite;
+  display: flex;
+  /*flex-direction: column; /*inverte os eixos*/
+  border: solid 40px rgb(249, 248, 248);
+  height: 250vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column-reverse; */
+
+  /* 
+   row ---> já vem por padrão que e o padrão
+   em linha
+   row-reverse ---> padrão em linha só que ao
+   contrário 
+   column ---> deixa nossos elementos em 
+   coluna
+   column-reverse --> deixa nossos elementos
+   em coluna só que com as posições invertidas
+   
+    justify-content: center --> o eixo x inverte 
+    e vira eixo y.
+    align-items: center --> e o  eixo y inverte e 
+    vira eixo x.
+
+   
+   */
+  /* 
+   wrap ---> se não couber em uma única linha
+   passa para linha debaixo.
+   
+   no-wrap ---> vai manter todo mundo em uma única
+   linha.
+
+    wrap-reverse ---> se não couber em uma única linha
+    passa para linha debaixo e inverte a posição dos elementos.
+    */
+}
+div,
+img {
+  width: 40vw;
+  height: 70vh;
+  border-radius: 70px;
+}
+.One {
+  border: solid 40px blue;
+}
+.Two {
+  border: solid 40px pink;
+}
+.Tre {
+  border: solid 40px green;
+}
+.Four {
+  border: solid 40px yellow;
+}
+.Five {
+  border: solid 40px violet;
+}
